@@ -1,6 +1,7 @@
 # password-checker
 
-              CREATE MULTIPLE PASSWORDS
+        ###  CREATE MULTIPLE PASSWORDS  ###
+
 1.	password
 2.	123456789
 3.	abcd1234
@@ -8,17 +9,19 @@
 5.	a(1{C}2) De
 6.	#GzgYA6cJI
 
-           TEST ON THE PASSWORD METER
-Password	    Complexity		  	Feedback/Suggestions
-1.	password		weak			Dictionary word; Add symbols and digits
-2.	123456789		weak			Very common; Add more complexity
-3.	abcd1234		weak			Common; numbers and alphabets
-4.	abCD12@!8		strong			Make it unique
-5.	a(1{C}2) De		strong     	             No suggestions
-6.	#GzgYA6cJI		strong			No suggestions
+         ###  TEST ON THE PASSWORD METER  ###
+
+    Password	         Complexity		     	    Feedback/Suggestions
+1.	password	    	weak	    		Dictionary word; Add symbols and digits
+2.	123456789	    	weak			    Very common; Add more complexity
+3.	abcd1234		    weak		    	Common; numbers and alphabets
+4.	abCD12@!8	    	strong		    	Make it unique
+5.	a(1{C}2) De	    	strong     	        No suggestions
+6.	#GzgYA6cJI		    strong			    No suggestions
 
 
-                BEST PRACTICE
+              ###  BEST PRACTICE  ###
+
 	Use at least 12 characters
 	Mix uppercase, lowercase, numbers, symbols
 	Avoid common words or patterns 
@@ -26,7 +29,7 @@ Password	    Complexity		  	Feedback/Suggestions
 	Randomness = stronger password
 
 
-            COMMON PASSWORD ATTACKS 
+          ###  COMMON PASSWORD ATTACKS  ### 
 
 
 •	PHISHING It is relies on human error to be successful. Rather than a hacker having to crack a password, The user hand over their SPII on a plate. That’s how phishing work through SOCIAL ENGINEERING email attacks.
@@ -53,7 +56,7 @@ Password	    Complexity		  	Feedback/Suggestions
 •	RAINBOW TABLE ATTACKS This attack is similar to dictionary attacks-but use a rainbow table rather than a list of words, and can offer a faster password-cracking process. A rainbow table is essentially the key to deciphering encrypted passwords- its where pre-computed hash functions are stored alongside their hashed values. Using it, a hacker can compare values against this table and decrypt the hashed passwords in your database. Rainbow tables containing the solutions to common hashing algorithms can be found on the dark web, as well as generated using hacking tools such as Rainbow Crack and 0phcrack.
 
 
-                PASSWORD COMPLEXITY
+              ###  PASSWORD COMPLEXITY  ###
 
 	Password Complexity Improves Security Because:
 •	Increases time/effort for brute-force attacks.
