@@ -9,7 +9,7 @@
 6.	#GzgYA6cJI
 
            TEST ON THE PASSWORD METER
-Password		Complexity			Feedback/Suggestions
+Password	    Complexity		  	Feedback/Suggestions
 1.	password		weak			Dictionary word; Add symbols and digits
 2.	123456789		weak			Very common; Add more complexity
 3.	abcd1234		weak			Common; numbers and alphabets
